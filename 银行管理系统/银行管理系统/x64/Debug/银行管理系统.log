@@ -1,0 +1,32 @@
+﻿  bank.cpp
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(18,2): error C2664: “void MFileMessageOperate(Manager *,const char *)”: 无法将参数 1 从“ManagerArry *”转换为“Manager *”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(18,22): message : 指向的类型不相关; 转换需要 reinterpret_cast、C 样式强制转换或带圆括号的函数样式强制转换
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\Bank.h(85,6): message : 参见“MFileMessageOperate”的声明
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(18,2): message : 尝试匹配参数列表“(ManagerArry *, const char [12])”时
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned short *”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): message : 请考虑在格式字符串中使用“%hd”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 2 拥有了类型“unsigned short *”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): message : 请考虑在格式字符串中使用“%hd”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 4 拥有了类型“unsigned short *”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): message : 请考虑在格式字符串中使用“%hd”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 5 拥有了类型“int”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(163,14): warning C4477: “fscanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 6 拥有了类型“int”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(236,40): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned short *”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(236,40): message : 请考虑在格式字符串中使用“%hd”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(237,40): warning C4477: “scanf”: 格式字符串“%d”需要类型“int *”的参数，但可变参数 1 拥有了类型“unsigned short *”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\bank.cpp(237,40): message : 请考虑在格式字符串中使用“%hd”
+  main.cpp
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(5,6): error C2182: “MAfterSuccess”: “void” 这一使用无效
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(5,20): error C2065: “ManagerArray”: 未声明的标识符
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(5,34): error C2065: “pmarr”: 未声明的标识符
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(5,50): error C2065: “pm”: 未声明的标识符
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(5,41): error C2275: “Manager”: 应为表达式而不是类型
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(6,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(9,2): error C2059: 语法错误:“while”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(10,2): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(10,2): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(33,1): error C2059: 语法错误:“}”
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(33,1): error C2143: 语法错误: 缺少“;”(在“}”的前面)
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(35,1): error C2143: 语法错误: 缺少“;”(在“{”的前面)
+D:\Tulun代码\C项目\银行管理系统\银行管理系统\main.cpp(35,1): error C2447: “{”: 缺少函数标题(是否是老式的形式表?)
+  正在生成代码...
