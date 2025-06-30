@@ -1,0 +1,93 @@
+{
+    "products": {
+        "1": {
+            "id": 1,
+            "name": "可口可乐",
+            "price": 3.5,
+            "stock": 100,
+            "category_id": 2,
+            "sales_count": 0,
+            "price_history": [
+                [
+                    1751298226.974406,
+                    3.5
+                ]
+            ]
+        },
+        "2": {
+            "id": 2,
+            "name": "薯片",
+            "price": 5.0,
+            "stock": 50,
+            "category_id": 3,
+            "sales_count": 0,
+            "price_history": [
+                [
+                    1751298226.974406,
+                    5.0
+                ]
+            ]
+        },
+        "3": {
+            "id": 3,
+            "name": "矿泉水",
+            "price": 2.0,
+            "stock": 25,
+            "category_id": 2,
+            "sales_count": 0,
+            "price_history": [
+                [
+                    1751298226.974406,
+                    2.0
+                ]
+            ]
+        },
+        "4": {
+            "id": 4,
+            "name": "汽水",
+            "price": 3.0,
+            "stock": 800,
+            "category_id": 2,
+            "sales_count": 0,
+            "price_history": [
+                [
+                    1751298266.7898915,
+                    3.0
+                ]
+            ]
+        },
+        "5": {
+            "id": 5,
+            "name": "芬达",
+            "price": 3.0,
+            "stock": 540,
+            "category_id": 2,
+            "sales_count": 60,
+            "price_history": [
+                [
+                    1751298287.1834269,
+                    3.0
+                ]
+            ]
+        }
+    },
+    "categories": {
+        "1": {
+            "id": 1,
+            "name": "所有商品",
+            "parent_id": 0
+        },
+        "2": {
+            "id": 2,
+            "name": "饮料",
+            "parent_id": 1
+        },
+        "3": {
+            "id": 3,
+            "name": "零食",
+            "parent_id": 1
+        }
+    },
+    "_next_product_id": 6,
+    "_next_category_id": 4
+}
